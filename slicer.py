@@ -150,3 +150,4 @@ def main():
 if __name__ == '__main__':
     main()
 pip install -r requirements.txt
+python slicer2.py audio [--out OUT] [--db_thresh DB_THRESH] [--min_length MIN_LENGTH] [--min_interval MIN_INTERVAL] [--hop_size HOP_SIZE] [--max_sil_kept MAX_SIL_KEPT]
